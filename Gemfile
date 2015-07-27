@@ -43,5 +43,12 @@ group :development, :test do
   gem 'spring'
   gem 'pry'
   gem 'rspec-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
+end
+
+group :test do
+  gem 'simplecov'
 end
 
